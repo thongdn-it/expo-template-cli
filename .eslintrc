@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "plugins": ["eslint-plugin-import"],
+  "rules": {
+    "semi": ["error", "never"],
+    "max-len": [
+      "error",
+      {
+        "code": 200
+      }
+    ],
+    "import/prefer-default-export": "off"
+  }
+}

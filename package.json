@@ -1,0 +1,34 @@
+{
+  "name": "expo-template-cli",
+  "version": "0.0.7",
+  "description": "The command-line tool for creating Expo projects",
+  "keywords": [
+    "expo",
+    "expo-template",
+    "expo-template-cli"
+  ],
+  "author": {
+    "name": "Thong Dang",
+    "email": "thongdn.it@gmail.com",
+    "url": "https://github.com/thongdn-it"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thongdn-it/expo-template-cli.git"
+  },
+  "homepage": "https://github.com/thongdn-it/expo-template-cli#readme",
+  "bin": {
+    "ext": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "opn": "^5.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
